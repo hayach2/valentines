@@ -1,0 +1,12 @@
+<main class="grid min-h-full place-items-center bg-orange-300 px-6 py-24 sm:py-32 lg:px-8">
+  <div class="text-center">
+    <h2 class="mt-4 text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl">Enter your first name pls</h2>
+
+        <form class="my-5" (ngSubmit)="submit()">
+        <div class="relative z-0 w-full mb-5 group">
+            <input type="text" name="fullName" [(ngModel)]="fullName" class="block py-2.5 px-0 w-full text-sm text-heading bg-transparent border-0 border-b-2 border-default-medium appearance-none focus:outline-none focus:ring-0 focus:border-brand peer text-white" placeholder="Full name" required />
+        </div>
+        <button type="submit" class="text-white bg-brand rounded border hover:bg-indigo-100 hover:cursor-pointer hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none shadow-2xl shadow-white">Submit</button>
+        </form>
+  </div>
+</main>

@@ -1,0 +1,11 @@
+.heart-btn {
+  background: none;
+}
+
+.heart-btn:hover {
+  background-image: url("../../../assets/hearts.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(1.1);
+}

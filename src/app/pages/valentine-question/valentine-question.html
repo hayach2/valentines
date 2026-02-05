@@ -1,0 +1,14 @@
+<main class="grid min-h-full place-items-center bg-red-900 px-6 py-24 sm:py-32 lg:px-8">
+  <div class="text-center">
+    <h1 class="mt-4 text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl">Hello {{name}}! Would you be my valentine's?</h1>
+    <div class="mt-10 flex items-center justify-center gap-x-6">
+      <a
+        routerLink="/yes"
+        class="heart-btn rounded-md p-20 text-sm font-extrabold text-white hover:text-red-500"
+      >
+        Yes
+      </a>
+      <a #runawayBtn class="rounded-md p-20 text-sm font-semibold text-white hover:rotate-2 hover:scale-105">Sorry can't</a>
+    </div>
+  </div>
+</main>
